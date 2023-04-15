@@ -739,8 +739,13 @@ margin-left: 120px;
     border-radius: 4px;
     padding-left: 24px;
     background-color: transparent;
+    transition: border-color var(--transition-func);
   }
   
+  .subscribe-input:is(:hover, :focus) {
+    border-color: var(--color-iris);
+}
+
   .subscribe-input::placeholder {
     font-size: 12px;
     line-height: 2;
