@@ -138,18 +138,18 @@
   }
   
   
-       /*-------------- feature ------------*/
+       /*-------------- solutions ------------*/
       
-     .feature-item {
+     .solutions-item {
           width: calc((100% - 24px) / 2); 
           
         }
-        .feature-list {
+        .solutions-list {
           display: flex; 
           flex-wrap: wrap;
           gap: 72px 24px; 
         }
-        .feature-title {
+        .solutions-item-text {
           text-align: start;
        }
       
@@ -180,7 +180,7 @@
           gap: 72px 24px; 
         }
   
-        .customers-item {
+        .customers-company {
     
     width: calc((100% - 48px) / 3);
    
@@ -368,34 +368,34 @@
     }
   
   
-  /*-------------- feature ------------*/
-  .feature {
+  /*-------------- solutions ------------*/
+  .solutions {
     padding-top: 120px;
     padding-bottom: 120px; 
   }
-  .feature-item {
+  .solutions-item {
     width: calc((100% - 72px) / 4);
     }
   
-    .feature-title {
+    .solutions-item-text {
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
       text-align: start;
     }
-    .feature-list {
+    .solutions-list {
     display: flex; 
     flex-wrap: wrap;
     gap: 24px; 
   }
   
-  .feature-text {
+  .solutions-text {
     font-weight: 400;
     
   }
     
     
-    .feature-icon {
+    .solutions-symbol {
     background-color: var(--color-cloud);
     width: 100%;
     height: 112px;
@@ -429,7 +429,7 @@
         gap: 24px;
       }
   
-     /* ---------team------------------ */ 
+     /* ---------team-------------- */ 
       
      .team {
       
@@ -455,7 +455,7 @@
     padding-top: 120px;
     padding-bottom: 120px; 
   }  
-  .customers-item {
+  .customers-company {
     width: calc((100% - 120px) / 6); 
     
   }

@@ -197,15 +197,19 @@ font-family: 'Raleway', sans-serif;
 
 .solutions-list {
     display: flex;
-    gap: 24px;
+    gap: 72px;
+    /* gap: 24px; */
+    flex-wrap: wrap;
+    flex-direction: row;
 }  
 
 .solutions-item {
-    width: calc((100% - 72px) / 4);
+/* width: calc((100% - 72px) / 4); */
+width: 100%;
 }
 
-.solution-symbol {
-    display: flex;
+.solutions-symbol {
+    display: none;
     height: 112px;
     background-color: var(--color-cloud);
     margin-bottom: 8px;
@@ -292,21 +296,24 @@ font-family: 'Raleway', sans-serif;
 }
 
 .solutions {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .solutions-item-text {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color-grey);
-        margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  text-align: center;
 }
 
+
 .solutions-text {
-    font-weight: 400;
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -314,7 +321,7 @@ font-family: 'Raleway', sans-serif;
 }
 /*------------- doing ---------------*/
 .doing {
-    padding-bottom: 120px;
+    display: none;
 }
 .doing-list {
     display: flex;
@@ -450,22 +457,25 @@ margin-bottom: 72px;
 /*-------------customers--------------*/
 
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
-.customers-container {
-
-}
-
-.customers-title {
-    
+.customers-title { 
     margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .customers-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gap: 24px; */
+  gap: 72px 16px;
 }
 
 .customers-name {
@@ -473,9 +483,9 @@ margin-bottom: 72px;
 }
 
 .customers-company {
-    width: calc((100% - 120px) / 6);
+    /* width: calc((100% - 120px) / 6); */
     height: 88px;
-    color: var();
+    width: calc((100% - 16px) / 2);
 }
 
 .customers-link {
