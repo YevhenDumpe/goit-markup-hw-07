@@ -60,7 +60,7 @@
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: var(--color-grey);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--transition-func);
   }
   
   a[class="header-link header-line link"] {
@@ -83,7 +83,7 @@
     position: absolute;
     top: 44px;
     left: 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--transition-func);
   }
   
   .header-link:is(:hover, :focus) {
@@ -96,7 +96,7 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
     color: var(--address-title-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--transition-func);
   }
   
   .header-address:is(:hover, :focus) {
@@ -296,7 +296,7 @@
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: var(--color-grey);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--transition-func);
   }
   
   a[class="header-link header-line link"] {
@@ -319,7 +319,7 @@
     position: absolute;
     top: 44px;
     left: 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--transition-func);
   }
   
   .header-link:is(:hover, :focus) {
@@ -332,7 +332,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-title-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--transition-func);
   }
   
   .header-address:is(:hover, :focus) {
