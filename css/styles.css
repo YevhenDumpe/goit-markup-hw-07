@@ -542,6 +542,8 @@ margin-bottom: 72px;
     width: 100%;
     flex-wrap: wrap;
     gap: 72px;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-img {
@@ -560,7 +562,7 @@ margin-bottom: 72px;
 
 .team-item {
     /* width: calc((100% - 72px) / 3); */
-    width: 100%;
+    max-width: 264px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px; 
@@ -1040,16 +1042,18 @@ margin-bottom: 72px;
 }
 
 .modal {
-    width: 100%; 
     background-color: var(--color-dairy);
+    max-width: 392px;
+    width: calc(100% - 36px);
+    padding: 72px 16px 16px 16px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scaleY(1);
-    transition: transform 300ms linear;
-    padding: 72px 24px 24px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
 }
 
 .modal-close {
