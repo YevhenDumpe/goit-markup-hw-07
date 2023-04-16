@@ -114,7 +114,7 @@
      
      .hero {
       background-image: var(--grad),
-    url(../images/hero/Dark-bg-pl.jpg);
+    url(../images/dark-bg-tab@1x-min.jpg);
       max-width: 1158px;
     
   }
@@ -124,7 +124,7 @@
     (min-resolution: 2dppx) {
     .hero {
       background-image: var(--grad),
-      url(../images/people-office\ 1.jpg);
+      url(../images/dark-bg-tab@2x-min.jpg);
     }
   }
   
@@ -133,7 +133,9 @@
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
-    text-transform: none; 
+    text-transform: none;
+    
+    
   }
   
   
@@ -345,7 +347,7 @@
   /* ----------- HERO ------------- */
   .hero {
     background-image: var(--grad),
-    url(../images/hero/people-office.jpg);
+    url(../images/people-office-desc@1x-min.jpg);
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -356,7 +358,7 @@
     (min-resolution: 2dppx) {
     .hero {
       background-image: var(--grad),
-      url(../images/people-office\ 1.jpg);
+      url(../images/people-office-desc@2x-min.jpg );
     }
   }
   .hero-title {
@@ -525,4 +527,3 @@
     } 
   
       }
-  
