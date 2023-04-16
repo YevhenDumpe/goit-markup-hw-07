@@ -48,12 +48,11 @@
     gap: 12px;
      }
   
-    .address {
-      position: relative;
-      top: -8px;
-      right: 16px;
-      
-    }
+  .address {
+    position: relative;
+    top: -8px;
+  }
+
   .header-link {
     font-family: inherit;
     font-weight: 500;
