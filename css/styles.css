@@ -45,7 +45,7 @@ ul {
   font-weight: 500;
   }
   
-address {
+.address {
     font-style: normal;
   }
 
@@ -91,9 +91,6 @@ img{
     color: var(--color-grey);
 }
 
-.address {
-    font-style: normal
-}
 
 .address-list {
     display: none;
@@ -157,7 +154,7 @@ img{
     height: 4px;
     left: 0px;
     bottom: 0;
-    top: 45px;
+    top: 46px;
     display: block;
     background-color: var(--color-ocean);
     border-radius: 2px;
@@ -359,7 +356,7 @@ width: 100%;
     font-weight: 700;
         /* font-size: 56px; */
         font-size: 36px;
-        line-height: calc(56/36);
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--main-title-color);
